@@ -1,0 +1,114 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Westminster Vehicle Rental Manager Report 29/10/2019~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ vecType     plateNo    make       model      yearOfRele fuelType   fuelConsum color      engineCapa vehicleRen vehicleAva noOfDoors  transmissi seatingCap startType   brakingTyp
+ suv         1450       BMW        X5         2015       Petrol     67.0       Blue       1350       60.0       no         4          Automatic  4          null        null      
+
+
+
+ bus         1940       Tata       Rosa       2003       Petrol     60.0       White      1450       55.0       No         2          Manual     26         null        null      
+
+
+
+ scooter     1954       Yamaha     Fino       2016       Petrol     35.0       Teal       125        20.0       yes        0          null       0          Electric-S  Disc      
+
+
+
+ motorbike   1966       Ducati     HyperMotar 2014       Petrol     34.0       Red        1800       56.0       yes        0          null       0          ElectricSt  Disc      
+
+
+
+ van         1988       Toyota     Hiace      2012       Diesel     54.0       Grey       145        34.0       yes        4          Manual     9          null        null      
+
+
+
+ suv         1990       Jaguar     F-Pace     2018       Petrol     35.0       Red        1500       55.0       No         4          Automatic  5          null        null      
+
+
+
+ motorbike   2435       Yamaha     Libero     2004       Petrol     70.0       Gold       125        35.0       No         0          null       0          Kick-Start  Disc      
+
+
+
+ motorbike   2467       Honda      Hornet     2007       Petrol     35.0       Green      300        45.0       yes        0          null       0          ElectricSt  Disc      
+
+
+
+ car         8865       Nissan     Sunny      2002       Petrol     55.0       Silver     1250       44.0       yes        4          Manual     5          null        null      
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Westminster Vehicle Rental Manager Report 29/10/2019~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ vecType     plateNo    make       model      yearOfRele fuelType   fuelConsum color      engineCapa vehicleRen vehicleAva noOfDoors  transmissi seatingCap startType   brakingTyp
+ suv         1450       BMW        X5         2015       Petrol     67.0       Blue       1350       60.0       no         4          Automatic  4          null        null      
+
+
+
+ bus         1940       Tata       Rosa       2003       Petrol     60.0       White      1450       55.0       No         2          Manual     26         null        null      
+
+
+
+ scooter     1954       Yamaha     Fino       2016       Petrol     35.0       Teal       125        20.0       yes        0          null       0          Electric-S  Disc      
+
+
+
+ motorbike   1966       Ducati     HyperMotar 2014       Petrol     34.0       Red        1800       56.0       yes        0          null       0          ElectricSt  Disc      
+
+
+
+ van         1988       Toyota     Hiace      2012       Diesel     54.0       Grey       145        34.0       yes        4          Manual     9          null        null      
+
+
+
+ suv         1990       Jaguar     F-Pace     2018       Petrol     35.0       Red        1500       55.0       No         4          Automatic  5          null        null      
+
+
+
+ motorbike   2435       Yamaha     Libero     2004       Petrol     70.0       Gold       125        35.0       No         0          null       0          Kick-Start  Disc      
+
+
+
+ motorbike   2467       Honda      Hornet     2007       Petrol     35.0       Green      300        45.0       yes        0          null       0          ElectricSt  Disc      
+
+
+
+ car         8865       Nissan     Sunny      2002       Petrol     55.0       Silver     1250       44.0       yes        4          Manual     5          null        null      
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Westminster Vehicle Rental Manager Report 29/10/2019~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ vecType     plateNo    make       model      yearOfRele fuelType   fuelConsum color      engineCapa vehicleRen vehicleAva noOfDoors  transmissi seatingCap startType   brakingTyp
+ suv         1450       BMW        X5         2015       Petrol     67.0       Blue       1350       60.0       no         4          Automatic  4          null        null      
+
+
+
+ bus         1940       Tata       Rosa       2003       Petrol     60.0       White      1450       55.0       No         2          Manual     26         null        null      
+
+
+
+ scooter     1954       Yamaha     Fino       2016       Petrol     35.0       Teal       125        20.0       yes        0          null       0          Electric-S  Disc      
+
+
+
+ motorbike   1966       Ducati     HyperMotar 2014       Petrol     34.0       Red        1800       56.0       yes        0          null       0          ElectricSt  Disc      
+
+
+
+ van         1988       Toyota     Hiace      2012       Diesel     54.0       Grey       145        34.0       yes        4          Manual     9          null        null      
+
+
+
+ suv         1990       Jaguar     F-Pace     2018       Petrol     35.0       Red        1500       55.0       No         4          Automatic  5          null        null      
+
+
+
+ motorbike   2435       Yamaha     Libero     2004       Petrol     70.0       Gold       125        35.0       No         0          null       0          Kick-Start  Disc      
+
+
+
+ motorbike   2467       Honda      Hornet     2007       Petrol     35.0       Green      300        45.0       yes        0          null       0          ElectricSt  Disc      
+
+
+
+ car         8865       Nissan     Sunny      2002       Petrol     55.0       Silver     1250       44.0       yes        4          Manual     5          null        null      
+
+
+

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fitToHeight="true" fitToWidth="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1202.0" vbarPolicy="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ControllerGUI">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="640.0" prefWidth="1202.0" style="-fx-background-color: #2D3447; -fx-border-color: #d4af37; -fx-border-width: 3;">
+         <children>
+            <Text fill="#d4af37" layoutX="20.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Westminster Vehicle Rental Service">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="72.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="26.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flexible, Accessible, Affordable">
+               <font>
+                  <Font name="Freestyle Script" size="48.0" />
+               </font>
+            </Text>
+            <ScrollPane hbarPolicy="ALWAYS" layoutX="544.0" layoutY="215.0" prefHeight="396.0" prefViewportHeight="810.0" prefViewportWidth="2152.0" prefWidth="627.0" style="-fx-border-color: #d4af37; -fx-border-width: 3;" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+               <content>
+                  <TableView fx:id="vecTable" layoutY="169.0" prefHeight="861.0" prefWidth="2152.0" stylesheets="@GUIStyleSheet.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="448.0" AnchorPane.topAnchor="169.0">
+                     <columns>
+                        <TableColumn fx:id="col_vecType" prefWidth="150.0" text="Vehicle Type" />
+                        <TableColumn fx:id="col_plateNo" prefWidth="100.0" text="Plate No" />
+                        <TableColumn fx:id="col_make" prefWidth="100.0" text="Make" />
+                        <TableColumn fx:id="col_model" prefWidth="100.0" text="Model" />
+                        <TableColumn fx:id="col_yearOfRelease" prefWidth="150.0" text="Year of Release" />
+                        <TableColumn fx:id="col_fuelType" prefWidth="100.0" text="Fuel Type" />
+                        <TableColumn fx:id="col_fuelConsumption" prefWidth="150.0" text="Fuel Consumption" />
+                        <TableColumn fx:id="col_color" prefWidth="100.0" text="Color" />
+                        <TableColumn fx:id="col_engineCapacity" prefWidth="150.0" text="Engine Capacity" />
+                        <TableColumn fx:id="col_rentalPrice" prefWidth="150.0" text="Rental Price" />
+                        <TableColumn fx:id="col_availability" prefWidth="150.0" text="Availability" />
+                        <TableColumn fx:id="col_noOfDoors" prefWidth="150.0" text="No of Doors" />
+                        <TableColumn fx:id="col_transmission" prefWidth="150.0" text="Transmission" />
+                        <TableColumn fx:id="col_seatingCapacity" prefWidth="150.0" text="Seating Capacity" />
+                        <TableColumn fx:id="col_startType" prefWidth="150.0" text="Start Type" />
+                        <TableColumn fx:id="col_brakeType" prefWidth="150.0" text="Brake Type" />
+                     </columns>
+                  </TableView>
+               </content>
+            </ScrollPane>
+            <MenuButton layoutX="982.0" layoutY="145.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="189.0" style="-fx-background-color: #d4af37;" text="Filter By" textFill="#2d3447">
+              <items>
+                  <MenuItem fx:id="allVec" mnemonicParsing="false" onAction="#all" text="All Vehicles" />
+                <MenuItem fx:id="fil_over1000cc" mnemonicParsing="false" onAction="#over1000cc" text="Engine Capacity &gt;1000cc" />
+                  <MenuItem fx:id="fil_under1000cc" mnemonicParsing="false" onAction="#under1000cc" text="Engine Capacity &lt;1000cc" />
+                <MenuItem fx:id="fil_ascYearOfRelease" mnemonicParsing="false" onAction="#ascYearOfRel" text="Ascending Year of Release" />
+                  <MenuItem fx:id="fil_descYearOfRelease" mnemonicParsing="false" onAction="#descYearOfRel" text="Descending Year of Release" />
+                  <MenuItem fx:id="fil_petrol" mnemonicParsing="false" onAction="#petrol" text="Fuel Type-Petrol" />
+                  <MenuItem fx:id="fil_vecYearOfRelease" mnemonicParsing="false" onAction="#diesel" text="Fuel Type- Diesel" />
+                  <MenuItem fx:id="fil_manual" mnemonicParsing="false" onAction="#manual" text="Transmission- Manual" />
+                  <MenuItem fx:id="fil_automatic" mnemonicParsing="false" onAction="#automatic" text="Transmission- Automatic" />
+                  <MenuItem fx:id="fil_available" mnemonicParsing="false" onAction="#VecAvailable" text="Available Vehicles" />
+              </items>
+               <font>
+                  <Font name="Franklin Gothic Medium" size="30.0" />
+               </font>
+            </MenuButton>
+            <Text fill="#d4af37" layoutX="28.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bookings">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="36.0" />
+               </font>
+            </Text>
+            <TextField fx:id="book_fullName" layoutX="26.0" layoutY="267.0" prefHeight="39.0" prefWidth="224.0" promptText="Full Name" />
+            <TextField fx:id="book_nic" layoutX="26.0" layoutY="324.0" prefHeight="39.0" prefWidth="224.0" promptText="National Identiy Card No" />
+            <TextField fx:id="book_contact" layoutX="26.0" layoutY="386.0" prefHeight="39.0" prefWidth="224.0" promptText="Contact No" />
+            <Button fx:id="book_button" layoutX="26.0" layoutY="472.0" mnemonicParsing="false" onAction="#bookReceipt" prefHeight="94.0" prefWidth="476.0" style="-fx-background-color: #d4af37;" text="Book Vehicle" textFill="#2d3447">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="48.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <DatePicker fx:id="book_end" layoutX="297.0" layoutY="386.0" prefHeight="39.0" prefWidth="200.0" promptText="End Date" />
+            <DatePicker fx:id="book_start" layoutX="297.0" layoutY="324.0" prefHeight="39.0" prefWidth="200.0" promptText="Start Date" />
+            <Text layoutX="380.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <TextField fx:id="book_plateNo" layoutX="297.0" layoutY="267.0" prefHeight="39.0" prefWidth="200.0" promptText="Vehicle Plate No" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
