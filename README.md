@@ -11,6 +11,6 @@ None
 * [JavaFX](https://openjfx.io/) -  Client application platform
 * [MySQL](https://www.mysql.com/) - Database
 
-## Authors
+## Author
 
 * **Tony Jesuthasan** - [B-127](https://github.com/B-127)
